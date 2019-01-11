@@ -4,4 +4,4 @@
 
 At the end of this project I will have created a fully functioning eCom Product page...
 
-You can view this page in Git Pages.
+You can view this site on Git Pages.
