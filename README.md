@@ -1,6 +1,6 @@
 This is my interpretation of a project that is part of the Full Stack Development course, by Chris Dixon. 
 ====================================================
-At the end of this project I will have created a website named First Class Gadgets.
+At the end of this 3 page project I will have created a website named First Class Gadgets.
 ----------------------------------------------------
 
 ### **Index.html** <br> 
