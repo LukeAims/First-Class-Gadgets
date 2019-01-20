@@ -1,6 +1,7 @@
-#This is my interpretation of a project that is part of the Full Stack Development course, by Chris Dixon.
-
-##At the end of this project I will have created a website named First Class Gadgets.##
+This is my interpretation of a project that is part of the Full Stack Development course, by Chris Dixon. 
+====================================================
+At the end of this project I will have created a website named First Class Gadgets.
+----------------------------------------------------
 
 **Index.html**  *This page demonstrates the use of element structure and semantic meaning. I have used img src, link, main, header, aside, nav and footer. Along with h, a and p elements, list, section and div. I have also used commenting out and examples of html entities to add symbols..*
 
