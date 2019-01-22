@@ -1,0 +1,14 @@
+html {
+  background: #f7f7f7;
+}
+
+body {
+  background: white;
+  max-width: 1000px;
+  margin: 0% auto;
+}
+
+header, footer {
+  background: #333a40;
+  color: white;
+}
