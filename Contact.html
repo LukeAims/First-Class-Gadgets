@@ -61,7 +61,7 @@
                      <textarea cols="30" rows="5" id="message" name="message"></textarea>
                 </div> 
                     <!--  Select Box  -->
-                 <div>
+                 <!-- <div>
                     <label for="subject">Subject:</label>
                     <select id="subject">
                         <optgroup label="Product Issues">
@@ -77,6 +77,17 @@
                             <option value="other">Other</option>
                         </optgroup>
                     </select>
+                </div> -->
+                <div>
+                  <label for="subject">Subject:</label>
+                  <input type="text" list="subjects" id="subject" placeholder="Enter your subject" />
+                  <datalist id="subjects">
+                    <option value="Returns">
+                    <option value="Faulty Item">
+                    <option value="Delivery">
+                    <option value="Order Tracking">
+                    <option value="returns">
+                  </datalist>
                 </div>
                 <div>
                     <!-- Subscribe Lable 1  -->
@@ -98,7 +109,8 @@
                     <!--  Response Lable 2-->
                     <label for="emailresponse">Email</label>
                     <input type="radio" id="emailresponse" name="response">
-                </div>   
+                </div>  
+                <input type="submit">
             </form>
         </main>          
         
