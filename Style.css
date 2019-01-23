@@ -1,3 +1,5 @@
+/* Index page and general styling */ 
+
 html {
   background: #f7f7f7;
 }
@@ -6,9 +8,98 @@ body {
   background: white;
   max-width: 1000px;
   margin: 0% auto;
+  font-family: 'Barlow', sans-serif;
+  color: rgb(49, 46, 46)
 }
 
 header, footer {
   background: #333a40;
   color: white;
+}
+
+ul {
+margin: 0;
+padding: 0;
+}
+
+li {
+  list-style: none;
+  line-height: 30px;
+  /* margin-left: 4px; */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: royalblue;
+}
+
+header li {
+  display: inline;
+}
+
+header h1, nav {
+  display: inline-block;
+}
+
+main {
+  width: 680px;
+  display: inline-block;
+  padding: 10px;
+}
+
+aside {
+  width: 270px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.product {
+  box-sizing: border-box;
+  border: 1px solid gray;
+  width: 200px;
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.button {
+  padding: 10px;
+  display: inline-block;
+}
+
+p:first-of-type {
+  color: lightslategray;
+}
+
+.button:last-of-type {
+  background: blue;
+  color: white;
+}
+
+/* Product Detail Page */
+
+.product-detail {
+  width: 660px;
+}
+
+.product-detail img {
+  max-width: 50%;
+  float: left;
+}
+
+/* Contact Us page */
+
+form {
+ padding: 10px;
+ margin: 10px 0;
+ width: 600px;
 }
