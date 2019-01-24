@@ -15,6 +15,7 @@ body {
 header, footer {
   background: #333a40;
   color: white;
+  padding: 20px 10px;
 }
 
 ul {
@@ -45,6 +46,10 @@ header h1, nav {
   display: inline-block;
 }
 
+header h1 {
+  width: 68%;
+}
+
 main {
   width: 680px;
   display: inline-block;
@@ -69,6 +74,7 @@ img {
   margin: 5px;
   padding: 5px;
   display: inline-block;
+  text-align: center;
 }
 
 .button {
@@ -83,6 +89,10 @@ p:first-of-type {
 .button:last-of-type {
   background: blue;
   color: white;
+}
+
+.headerpadding {
+  padding: 2px;
 }
 
 /* Product Detail Page */
@@ -102,4 +112,18 @@ form {
  padding: 10px;
  margin: 10px 0;
  width: 600px;
+}
+
+form > div {
+  margin: 10px 0;
+}
+
+.inline label {
+  display: inline-block;
+  width: 100px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  padding: 10px;
+  width: 400px;
 }

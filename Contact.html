@@ -12,9 +12,9 @@
         <h1>First Class Gadgets</h1>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="">Shop</a></li>
-                    <li><a href="Contact.html">Contact Us</a></li>
+                    <li><a class="headerpadding" href="index.html">Home</a></li>
+                    <li><a class="headerpadding" href="">Shop</a></li>
+                    <li><a class="headerpadding" href="Contact.html">Contact Us</a></li>
                 </ul>
             </nav>
             <input type="search" placeholder="Search">
@@ -50,21 +50,18 @@
             <form>
                 <div class="inline">
                     <!--  Contact Us Lable 1-->
-                    <label for="Name">Name:</label>
-                    <input type="text" placeholder="Enter your Name" id="name" name="name">  
+                    <label for="Name">Name:</label><input type="text" placeholder="Enter your Name" id="name" name="name">  
                 </div>
                 <div class="inline">
                     <!--  Contact Us Lable 2-->
-                    <label for="email">Email:</label>
-                    <input type="email" placeholder="Enter your Email" id="email" name="email">   
+                    <label for="email">Email:</label><input type="email" placeholder="Enter your Email" id="email" name="email">   
                 </div>
                 <div class="inline">
                     <!--  Contact Us Lable 3-->
-                     <label for="message">Message:</label>
-                     <textarea cols="30" rows="5" id="message" name="message"></textarea>
+                     <label for="message">Message:</label><textarea cols="30" rows="5" id="message" name="message"></textarea>
                 </div> 
                      <!-- Select Box  -->
-                 <div class="inline">
+                 <!-- <div class="inline">
                     <label for="subject">Subject:</label>
                     <select id="subject">
                         <optgroup label="Product Issues">
@@ -80,10 +77,10 @@
                             <option value="other">Other</option>
                         </optgroup>
                     </select>
-                </div>
-          <!-- <div>
-                  <label for="subject">Subject:</label>
-                  <input type="text" list="subjects" id="subject" placeholder="Enter your subject" />
+                </div> -->
+                <div class="inline">
+                   <label for="subject">Subject:</label>
+                   <input type="text" list="subjects" id="subject" placeholder="Enter your subject">
                   <datalist id="subjects">
                     <option value="Returns">
                     <option value="Faulty Item">
@@ -91,7 +88,7 @@
                     <option value="Order Tracking">
                     <option value="returns">
                   </datalist>
-                </div> -->
+                </div>
                 <div>
                     <!-- Subscribe Lable 1  -->
                     <p>Subscribe to future offers by:</p>
