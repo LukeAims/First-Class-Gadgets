@@ -127,3 +127,28 @@ input[type="text"], input[type="email"], textarea {
   padding: 10px;
   width: 400px;
 }
+
+/* Table */
+
+table {
+  width: 400px;
+  text-align: left;
+  margin:  20px 0;
+}
+
+caption {
+  font-weight: bolder;
+  font-style: italic;
+  border-bottom: 1px double gray;
+  text-transform: uppercase;
+}
+
+th, td {
+  padding: 10px;
+  border: solid lightgray;
+}
+
+tr:hover {
+  background: wheat;
+  color: royalblue;
+}
