@@ -15,6 +15,6 @@ CSS
 CSS
 
 ### **Contact.html**
-**In this html page I have used the lable element to link to my input forms contained in a div element. I used the following form types to demonstrate my knowledge, Text, Email, Checkbox, Radio, Reset and submit. I added a Select box to create a dropdown menu and used optgroup to group the option values together. I then added Favicons to all 3 pages. I also used the iframe element to embed a google maps API to highlight my basic knowledge of API's. I have added the aditional code div, lable, input type="text" list="subject" datalist and option to create a dropdown menu using the newer html5 datalist element. I then commented the datalist out in favour of using the select box due to browser support issues.**
+**In this html page I have used the lable element to link to my input forms contained in a div element. I used the following form types to demonstrate my knowledge, Text, Email, Checkbox, Radio, Reset and submit. I added a Select box to create a dropdown menu and used optgroup to group the option values together. I then added Favicons to all 3 pages. I also used the iframe element to embed a google maps API to highlight my basic knowledge of API's. I have added the aditional code div, lable, input type="text" list="subject" datalist and option to create a dropdown menu using the newer html5 datalist element. I then commented the datalist out in favour of using the select box due to browser support issues...**
 
 **You can view this site on Git Pages.** 
