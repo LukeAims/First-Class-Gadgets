@@ -6,16 +6,20 @@ html {
 
 body {
   background: white;
-  max-width: 1000px;
   margin: 0% auto;
   font-family: 'Barlow', sans-serif;
-  color: rgb(49, 46, 46)
+  color: rgb(49, 46, 46);
+  text-align: center;
 }
 
 header, footer {
   background: #333a40;
   color: white;
   padding: 20px 10px;
+}
+
+input[type="search"] {
+  width: 100%;
 }
 
 ul {
@@ -47,20 +51,10 @@ header h1, nav {
 }
 
 header h1 {
-  width: 68%;
+ width: 100%;
 }
-
-main {
-  width: 680px;
-  display: inline-block;
-  padding: 10px;
-}
-
-aside {
-  width: 270px;
-  display: inline-block;
-  vertical-align: top;
-  padding: 10px;
+.headerpadding {
+  padding: 2px;
 }
 
 img {
@@ -70,10 +64,10 @@ img {
 .product {
   box-sizing: border-box;
   border: 1px solid gray;
-  width: 200px;
+  /* width: 30%; */
   margin: 5px;
   padding: 5px;
-  display: inline-block;
+  width: 100%;
   text-align: center;
 }
 
@@ -89,10 +83,6 @@ p:first-of-type {
 .button:last-of-type {
   background: blue;
   color: white;
-}
-
-.headerpadding {
-  padding: 2px;
 }
 
 /* Product Detail Page */
@@ -138,9 +128,8 @@ table {
 
 caption {
   font-weight: bolder;
-  font-style: italic;
   border-bottom: 1px double gray;
-  text-transform: uppercase;
+  font-variant: normal;
 }
 
 th, td {
@@ -151,4 +140,55 @@ th, td {
 tr:hover {
   background: wheat;
   color: royalblue;
+}
+
+/* Media Querys */
+
+@media (min-width: 800px) {
+  input[type="search"] {
+    width: 40%;
+    margin-left: 2em;
+  }
+
+  .product {
+    display: inline-block;
+    width: 48%;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    text-align: left;
+  }
+
+  header h1 {
+    width: 60%;
+  }
+
+  main {
+    width: 68%;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  aside {
+    width: 27%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    max-width: 80vw;
+  }
+
+  .product {
+    width: 30%;
+  }
+
+  input[type="search"] {
+    width: 20%;
+  }
 }
