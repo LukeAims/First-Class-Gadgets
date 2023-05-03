@@ -1,0 +1,194 @@
+/* Index page and general styling */ 
+
+html {
+  background: #f7f7f7;
+}
+
+body {
+  background: white;
+  margin: 0% auto;
+  font-family: 'Barlow', sans-serif;
+  color: rgb(49, 46, 46);
+  text-align: center;
+}
+
+header, footer {
+  background: #333a40;
+  color: white;
+  padding: 20px 10px;
+}
+
+input[type="search"] {
+  width: 100%;
+}
+
+ul {
+margin: 0;
+padding: 0;
+}
+
+li {
+  list-style: none;
+  line-height: 30px;
+  /* margin-left: 4px; */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: royalblue;
+}
+
+header li {
+  display: inline;
+}
+
+header h1, nav {
+  display: inline-block;
+}
+
+header h1 {
+ width: 100%;
+}
+.headerpadding {
+  padding: 2px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.product {
+  box-sizing: border-box;
+  border: 1px solid gray;
+  /* width: 30%; */
+  margin: 5px;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.button {
+  padding: 10px;
+  display: inline-block;
+}
+
+p:first-of-type {
+  color: lightslategray;
+}
+
+.button:last-of-type {
+  background: blue;
+  color: white;
+}
+
+/* Product Detail Page */
+
+.product-detail {
+  width: 660px;
+}
+
+.product-detail img {
+  max-width: 50%;
+  float: left;
+}
+
+/* Contact Us page */
+
+form {
+ padding: 10px;
+ margin: 10px 0;
+ width: 600px;
+}
+
+form > div {
+  margin: 10px 0;
+}
+
+.inline label {
+  display: inline-block;
+  width: 100px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  padding: 10px;
+  width: 400px;
+}
+
+/* Table */
+
+table {
+  width: 400px;
+  text-align: left;
+  margin:  20px 0;
+}
+
+caption {
+  font-weight: bolder;
+  border-bottom: 1px double gray;
+  font-variant: normal;
+}
+
+th, td {
+  padding: 10px;
+  border: solid lightgray;
+}
+
+tr:hover {
+  background: wheat;
+  color: royalblue;
+}
+
+/* Media Querys */
+
+@media (min-width: 800px) {
+  input[type="search"] {
+    width: 40%;
+    margin-left: 2em;
+  }
+
+  .product {
+    display: inline-block;
+    width: 48%;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    text-align: left;
+  }
+
+  header h1 {
+    width: 60%;
+  }
+
+  main {
+    width: 68%;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  aside {
+    width: 27%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    max-width: 80vw;
+  }
+
+  .product {
+    width: 30%;
+  }
+
+  input[type="search"] {
+    width: 20%;
+  }
+}

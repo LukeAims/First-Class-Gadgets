@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us</title>
+  <link
+        href="https://fonts.googleapis.com/css?family=Barlow"
+        rel="stylesheet" />
+  <link rel="icon" type="image/png" href="images/Favicon.png" />
+  <link rel="stylesheet" href="Style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>First Class Gadgets</h1>
+    <nav>
+      <ul>
+        <li><a class="headerpadding" href="index.html">Home</a></li>
+        <li><a class="headerpadding" href="">Shop</a></li>
+        <li>
+          <a class="headerpadding" href="Contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+    <input type="search" placeholder="Search" />
+  </header>
+  <aside>
+    <h2>Shop by:</h2>
+    <section>
+      <h3>Category</h3>
+      <hr />
+      <ul>
+        <li>All Items</li>
+        <li>Cameras</li>
+        <li>Laptops</li>
+        <li>Phones</li>
+        <li>Accessories</li>
+        <li>Other</li>
+      </ul>
+    </section>
+    <section>
+      <h3>Price <span>($)</span></h3>
+      <hr />
+      <ul>
+        <li>$1 - $9</li>
+        <li>$10 - $29</li>
+        <li>$30 - $59</li>
+        <li>$60 - $99</li>
+        <li>$100 +</li>
+      </ul>
+    </section>
+  </aside>
+  <main>
+    <h2>Contact Us:</h2>
+    <form>
+      <div class="inline">
+        <!--  Contact Us Label 1-->
+        <label for="Name">Name:</label><input
+               type="text"
+               placeholder="Enter your Name"
+               id="name"
+               name="name" />
+      </div>
+      <div class="inline">
+        <!--  Contact Us label 2-->
+        <label for="email">Email:</label><input
+               type="email"
+               placeholder="Enter your Email"
+               id="email"
+               name="email" />
+      </div>
+      <div class="inline">
+        <!--  Contact Us label 3-->
+        <label for="message">Message:</label><textarea cols="30" rows="5" id="message" name="message"></textarea>
+      </div>
+      <!-- Select Box  -->
+      <!-- <div class="inline">
+                    <label for="subject">Subject:</label>
+                    <select id="subject">
+                        <optgroup label="Product Issues">
+                            <option value="returns">Returns</option>
+                            <option value="Faulty_item">Faulty Item</option>
+                        </optgroup>
+                        <optgroup label="Delivery">
+                            <option value="delivery">Delivery Info</option>
+                            <option value="order_tracking">Order Tracking</option> 
+                        </optgroup>
+                        <optgroup label="Other">
+                             <option value="advice">Advice</option>
+                            <option value="other">Other</option>
+                        </optgroup>
+                    </select>
+                </div> -->
+      <div class="inline">
+        <label for="subject">Subject:</label>
+        <input
+               type="text"
+               list="subjects"
+               id="subject"
+               placeholder="Enter your subject" />
+        <datalist id="subjects">
+          <option value="Returns"></option>
+          <option value="Faulty Item"></option>
+          <option value="Delivery"></option>
+          <option value="Order Tracking"></option>
+          <option value="returns"></option>
+        </datalist>
+      </div>
+      <div>
+        <!-- Subscribe label 1  -->
+        <p>Subscribe to future offers by:</p>
+        <label for="newsletter">Newsletter</label>
+        <input
+               type="checkbox"
+               id="newsletter"
+               name="subscribe"
+               value="newsletter" />
+
+        <!--  Subscribe label 2  -->
+        <label for="email">Email</label>
+        <input type="checkbox" id="email" name="subscribe" value="email" />
+        <!--  Subscribe label 3  -->
+        <label for="post">Post</label>
+        <input type="checkbox" id="post" name="subscribe" value="post" />
+      </div>
+      <div>
+        <!--  Response label 1-->
+        <p>How would you like us to contact you?</p>
+        <label for="phoneresponse">Phones</label>
+        <input type="radio" id="phoneresponse" name="response" />
+        <!--  Response label 2-->
+        <label for="emailresponse">Email</label>
+        <input type="radio" id="emailresponse" name="response" />
+      </div>
+      <!--  Reset and Submit  -->
+      <div>
+        <input type="reset" />
+        <input type="submit" />
+        <!-- <button type="submit">submit</button> -->
+      </div>
+    </form>
+    <iframe
+            width="600"
+            height="450"
+            frameborder="0"
+            style="border: 0"
+            src="https://www.google.com/maps/embed/v1/place?q=London%20eye&key=AIzaSyCF2aRC3k58rlPz1uVURcBgwla7JmAxN14"
+            allowfullscreen></iframe>
+  </main>
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">Shop</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+
+</html>
